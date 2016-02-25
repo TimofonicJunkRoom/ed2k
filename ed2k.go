@@ -2,8 +2,9 @@
 package ed2k
 
 import (
-	"golang.org/x/crypto/md4"
 	"hash"
+
+	"golang.org/x/crypto/md4"
 )
 
 const (
@@ -24,6 +25,7 @@ func (d *digest) Reset() {
 	d.s = 0
 }
 
+// New returns a new hash.Hash computing the ed2k checksum.
 func New() hash.Hash {
 	d := new(digest)
 	d.inner = md4.New()

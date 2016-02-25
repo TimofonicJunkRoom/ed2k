@@ -1,5 +1,8 @@
 ed2k
 ====
+[![Go Report Card](https://goreportcard.com/badge/github.com/zyxar/ed2k)](https://goreportcard.com/report/github.com/zyxar/ed2k)
+[![GoDoc](https://godoc.org/github.com/zyxar/ed2k?status.svg)](https://godoc.org/github.com/zyxar/ed2k)
+
 
 ed2k hash in go
 
