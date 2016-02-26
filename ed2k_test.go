@@ -8,7 +8,7 @@ import (
 )
 
 func TestGetED2KHashFromFile(t *testing.T) {
-	f, err := os.Open("ed2k.go")
+	f, err := os.Open("LICENSE")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -19,7 +19,7 @@ func TestGetED2KHashFromFile(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if fmt.Sprintf("%x", eh.Sum(nil)) != "70da4ddbc36f86077cb0aae9730c0353" {
+	if fmt.Sprintf("%x", eh.Sum(nil)) != "4538d51388e00363318e712de7d14b55" {
 		t.Fail()
 	}
 }
