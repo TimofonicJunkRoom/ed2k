@@ -1,0 +1,8 @@
+language: go
+go:
+- 1.6
+- tip
+script: go test -v
+notifications:
+  slack:
+    secure: Jt1YGa+FPiIOV/OqK/CxopeMBSOPDec4WRiOrzxwivd4aSkBSRlMQxX66ll64L7ouztiye4AJzBq42rm9Jbm7eutLJnZyhroqqB6AVltzv1Mt4dc959T4Brtju/6TIsiQ0lfa0orPMT19XUIhHM9YNPBxt7tY9DX0YnkN5uaGtQ=
